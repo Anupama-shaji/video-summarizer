@@ -1,0 +1,86 @@
+/* ----- Global ----- */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    scroll-behavior: smooth;
+}
+
+/* ----- Navbar ----- */
+.navbar, .navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff !important;
+}
+.navbar .btn-try {
+    background: linear-gradient(90deg, #ff6a00, #e52e71);
+    color: #fff;
+    font-weight: 600;
+}
+.navbar .btn-try:hover {
+    opacity: 0.85;
+}
+
+/* ----- Hero Section ----- */
+.hero-section {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+}
+.hero-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.hero-section p {
+    font-family: 'Roboto', sans-serif;
+    color: #ddd;
+}
+
+/* ----- Buttons ----- */
+.btn-custom {
+    background: linear-gradient(90deg, #ff6a00, #e52e71);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+}
+.btn-custom:hover {
+    opacity: 0.9;
+}
+
+/* ----- Cards ----- */
+.card {
+    background: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    color: #fff;
+}
+
+/* ----- Highlights / Accent Text ----- */
+.highlight {
+    color: #ff6a00;
+    font-weight: 700;
+}
+
+/* ----- Footer ----- */
+footer {
+    background: rgba(0,0,0,0.6);
+    color: #ccc;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----- Inputs ----- */
+input, textarea {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid #444;
+    color: #fff;
+}
+input::placeholder, textarea::placeholder {
+    color: #bbb;
+}
+
+/* ----- Links ----- */
+a {
+    color: #00bfff;
+}
+a:hover {
+    color: #e52e71;
+    text-decoration: none;
+}
